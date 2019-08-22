@@ -12,7 +12,7 @@
 					type: 'component',
 					componentName: 'snapgrid',
 					componentState: {
-						url: '/pages/pkgs.csv',
+						url: 'pages/pkgs.csv',
 						fetchType: 'GET',
 						/*counterChart: {
 							contentItemId: 'chart',
