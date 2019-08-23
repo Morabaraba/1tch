@@ -3,12 +3,17 @@
 (function(root) {
 	$(main) // on ready call main
 	function main() {
+		$.get('pages/extracted.csv', function( data ) {
+			setupLayout(data);
+		})
+	}
+	function setupLayout(title) {
 		
 		var config0 = {
 			content: [{
 				type: 'row',
 				content: [{
-					title: 'Packages',
+					title: title,
 					type: 'component',
 					componentName: 'snapgrid',
 					componentState: {
