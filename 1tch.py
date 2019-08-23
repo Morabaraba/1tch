@@ -2,29 +2,82 @@ import sys
 import os
 import subprocess
 import csv
+import glob
+import threading 
 
-import inifile
+import inifile # pip install inifile
+
+ignore_commit_hashes = [ 'a202836f' ]
 
 lines = [ ['name', 'desc', 'filesize', 'created', 'last_modified'] ]
 
-directory = sys.argv[1]
-cwd = os.getcwd()
+def get_git_log(pathedname):
+    log_lines = subprocess.Popen(f'git log --follow --format="%h,%at" {pathedname}', shell=True, stdout=subprocess.PIPE).stdout.read().decode('utf-8')
+    log_lines = log_lines.split('\n')
+    del log_lines[-1] # last entry empty
+    return log_lines
 
-os.chdir(directory) # for git to function correctly
+def get_created_commit(log_lines):
+        i = 0
+        for ignore_hash in ignore_commit_hashes: 
+            if ignore_hash in log_lines[i]:
+                i += 1
+        return log_lines[i]
 
-for filename in os.listdir(directory):    
-    pathedname = os.path.join(directory, filename)
+def get_last_modified_commit(log_lines):
+        i = len(log_lines) - 1
+        for ignore_hash in ignore_commit_hashes: 
+            if ignore_hash in log_lines[i]:
+                i -= 1
+        return log_lines[i]
+
+def get_line(filename, pathedname):
     ini = inifile.IniFile(pathedname)
 
     name = filename    
     desc = ini.get('vars.desc', 'DESC-TODO')
     filesize = ini.get('vars.filesize')
-    created = subprocess.Popen(f'git log --follow --format=%aD {pathedname} | tail -1', shell=True, stdout=subprocess.PIPE).stdout.read().decode('utf-8').rstrip()
-    last_modified = subprocess.Popen(f'git log --follow --format=%aD {pathedname} | head -1', shell=True, stdout=subprocess.PIPE).stdout.read().decode('utf-8').rstrip()
+    log_lines = get_git_log(pathedname)
+    created = get_created_commit(log_lines).split(',')[1]
+    last_modified = get_last_modified_commit(log_lines).split(',')[1]
+    
+    return [ name, desc, filesize, created, last_modified]
 
-    lines.append([ name, desc, filesize, created, last_modified])
+def set_lines(directory, wildcardname):
+    pathname = os.path.join(directory, wildcardname)
+    for fullname in glob.glob(pathname):
+        path, filename = os.path.split(fullname)
+        line = get_line(filename, fullname)
+        lines.append(line)
+        #print(line)
+        #print('.', end = '')
 
-os.chdir(cwd) # save csv to old cwd
-with open('pages/pkgs.csv', 'w') as outfile:
-    writer = csv.writer(outfile)
-    writer.writerows(lines)
+def main(directory):
+    cwd = os.getcwd()
+    os.chdir(directory) # for git to function correctly
+    
+    thread_args = [ (directory, '[0-9]*',), 
+                    (directory, '[a-d]*',), 
+                    (directory, '[e-h]*',), 
+                    (directory, '[i-l]*',), 
+                    (directory, '[m-p]*',), 
+                    (directory, '[q-t]*',), 
+                    (directory, '[u-z]*',), 
+                ]  
+
+    threads = []
+    for t_arg in thread_args:
+        t = threading.Thread(target=set_lines, args=t_arg)
+        threads.append(t)
+        t.start()
+    
+    for t in threads:
+        t.join() # wait for all threads
+
+    os.chdir(cwd) # save csv to old cwd
+    with open('pages/pkgs.csv', 'w') as outfile:
+        writer = csv.writer(outfile)
+        writer.writerows(lines)
+
+if __name__ == '__main__':
+    main(sys.argv[1])

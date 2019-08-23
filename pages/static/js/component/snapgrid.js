@@ -281,10 +281,17 @@
 				//alert('canceled loading grid data')
 			}
 		})
+		
+		function customFormatter(row, cell, value, columnDef, dataContext) {			
+			if (columnDef.id == 'created' || columnDef.id == 'last_modified') {
+				return moment.unix(value).format('llll')
+			}
+			return value
+		}
 
 		this._collection.on('sync', function(collection, data, options) {
 			if (!self._columns || self._columns.length === 0) {
-				self._columns = self._generateColumns(data)
+				self._columns = self._generateColumns(data, customFormatter)
 			}
 
 			self._dataView.beginUpdate()
