@@ -713,8 +713,8 @@
 			}			
 			
 			var momentComparer = function(a, b) {
-				var v1 = moment(a[args.sortCol.field])
-				var v2 = moment(b[args.sortCol.field])
+				var v1 = moment.unix(a[args.sortCol.field])
+				var v2 = moment.unix(b[args.sortCol.field])
 				return (v1.isBefore(v2)) ? 1 : -1
 			}			
 			if (args.columnId == 'created' || args.columnId == 'last_modified') {				
