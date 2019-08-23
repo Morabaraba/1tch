@@ -286,6 +286,12 @@
 			if (columnDef.id == 'created' || columnDef.id == 'last_modified') {
 				return moment.unix(value).format('llll')
 			}
+			if (columnDef.id == 'name' ) {
+				var uri = 'https://github.com/sabotage-linux/sabotage/blob/master/pkg/' + value
+				var html = '<a href="' + uri +'" target="_blank">' + value + '</a>'
+				return html
+			}
+			
 			return value
 		}
 
