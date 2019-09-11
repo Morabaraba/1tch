@@ -1,0 +1,528 @@
+name,desc
+9base,Port of various original Plan9 tools to unix
+guvcview,Simple GTK+ interface for capturing and viewing video from v4l2 devices
+eet,"AMC is a piece of software that can help you creating and managing multiple choice questionnaires (MCQ), with automated marking. Answers sheets are formatted with LaTeX."
+python-progressbar,A progress bar for Python
+libice,X11 Inter-Client Exchange library (32-bit)
+cgit,A web interface for git written in plain C
+qt5,Qt5 interface for AppStream
+cpio,A tool to copy files into or out of a cpio or tar archive
+libxv,X11 Video extension library (32-bit)
+flex,A fast and flexible build system using Lua
+python-flask,Micro webdevelopment framework for Python
+sshfs,FUSE client based on the SSH File Transfer Protocol
+surf,Provides useful functions to deal with 3D surfaces meshed with interconnected triangles
+asciidoc,"Text document format for short documents, articles, books and UNIX man pages."
+python-gmpy,Provides C-coded Python modules for fast multiple-precision arithmetic.
+capstone,"Lightweight multi-platform, multi-architecture disassembly framework"
+serf,library for accessing and manipulating reiserfs partitions
+gobject-introspection,Introspection system for GObject-based libraries
+python-mpmath,Python library for arbitrary-precision floating-point arithmetic.
+sparse,"Large, sparse array mapping each unicode code point to the annotation data for it"
+libdrm,Userspace interface to kernel DRM services (32-bit)
+ca-certificates,Common CA certificates (default providers)
+ctags,A mix of ctags and anjuta-tags for the perfect C++ ctags
+glib,GNU C Library ARM64 target
+xlogo,Draw [old] X logo
+gettext,Deepin Gettext Tools
+libxdg-basedir,An implementation of the XDG Base Directory specifications.
+libedit,"Command line editor library providing generic line editing, history, and tokenization functions"
+rsync,"A utility for encrypted, bandwidth-efficient backups using the rsync algorithm."
+lgi,"Nostalgia bucklespring keyboard sound, sampled from IBM's Model-M"
+python-itsdangerous,Various helpers to pass trusted data to untrusted environments
+dbus-glib,GLib bindings for DBUS
+ghostscript,An interpreter for the PostScript language
+cabextract,A program to extract Microsoft cabinet (.CAB) files
+gmp,Arbitrary precision arithmetic component
+python-urwid,Curses-based user interface library
+glu,Provides functionality for small OpenGL programs
+classpath,A free replacement for Sun's proprietary core Java class libraries.
+patchelf,Small utility to modify the dynamic linker and RPATH of ELF executables
+libxxf86vm,X11 XFree86 video mode extension library (32-bit)
+svn,A pure C++ SVN-client for KDE
+glew,The OpenGL Extension Wrangler Library
+giblib,A library that feh uses as a wrapper to imlib2
+acl,"Access control list utilities, libraries and headers"
+python-six,Python 2 and 3 compatibility utilities
+sqlite,Sqlite3 database access component
+xrdb,X server resource database utility
+ethtool,Utility for controlling network drivers and hardware
+midori,Lightweight web browser
+python-cffi,Foreign Function Interface for Python calling C code
+dosfstools,DOS filesystem utilities
+aiksaurus,"A cross-platform, open-source thesaurus"
+xf86-video-fbdev,X.org framebuffer video driver
+python-flask-socketio,Socket.IO integration for Flask applications
+libxaw,X11 Athena Widget library
+qrencode,Simple wrapper for the C qrencode library
+dolphin,KDE File Manager
+freeglut,Provides functionality for small OpenGL programs
+deadbeef,A GTK+ audio player for GNU/Linux.
+libxmu,X11 miscellaneous micro-utility library (32-bit)
+tesseract,Gtk front-end to tesseract-ocr
+graphviz,Graphviz to LaTeX converter
+qemu,"API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)"
+busybox,Utilities for rescue and embedded systems
+util-macros,X.Org Autotools macros
+rpcsvc-proto,rpcsvc protocol definitions from glibc
+libevent,An event notification library (32-bit)
+libksba,A CMS and X.509 access library
+xkbcomp,X Keyboard description compiler
+extra-cmake-modules,Extra modules and scripts for CMake
+gzip,GNU compression utility
+unionfs-fuse,A user space unionfs implementation
+man,A set of programs to assemble and manipulate binary and object files for the ARM64 target
+dos2unix,Text file format converter
+pwgen,Password generator for creating easily memorable passwords
+apr-util,The Apache Portable Runtime
+shuffle,Shuffles lines of input.
+abiword,Fully-featured word processor
+cvs,CVS Frontend
+fontconfig,A library for configuring and customizing font access
+xrandr,Provide a simple visual front end for XRandR 1.2.
+steghide,Embeds a message in a file by replacing some of the least significant bits
+patch,"Finds packages in need of maintainers, bug fixes and patches. Adopt today!"
+cpan,"get, unpack, build and install modules from CPAN"
+distribute,"Distributed, fault-tolerant storage platform delivering object, block, and file system"
+redshift,Plasma applet for controlling redshift.
+fuse,A program for the efficient generation of all nonisomorphic fusenes and benzenoids with a given number of faces
+vorbis-tools,Extra tools for Ogg-Vorbis
+lxsession,Lightweight X11 session manager
+haveged,Entropy harvesting daemon using CPU timings
+lcms2,"Small-footprint color management engine, version 2"
+mysql,MySQL database access component
+lua51,Powerful lightweight programming language designed for extending applications
+xinit,X.Org initialisation program
+hostapd,"IEEE 802.11 AP, IEEE 802.1X/WPA/WPA2/EAP/RADIUS Authenticator"
+partx,Multipath tools for Linux (including kpartx)
+docbook-xsl,XML stylesheets for Docbook-xml transformations
+goffice,A GLib/GTK+ set of document-centric objects and charting library
+zbar,Application and library for reading bar codes from various sources
+gtk+3,"A flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell"
+docbook2X,A software package that converts DocBook documents into the traditional Unix man page format and the GNU Texinfo format.
+erlang,Jabber server written in Erlang
+unicorn,HTTP server to unload Git HTTP traffic from GitLab Rails app (Unicorn)
+v4l-utils,Userspace tools and conversion library for Video 4 Linux (32-bit)
+alsa-lib,An alternative implementation of Linux sound support
+python-flask-sqlalchemy,Adds SQLAlchemy support to your Flask application
+arj,Free and portable clone of the ARJ archiver
+ffmpeg,"Complete solution to record, convert and stream audio and video"
+unzip,Mini zip and unzip based on zlib
+libsm,X11 Session Management library (32-bit)
+python-werkzeug,Swiss Army knife of Python web development
+stunnel,A program that allows you to encrypt arbitrary TCP connections inside SSL
+cyrus-sasl,Cyrus saslauthd SASL authentication daemon
+xprop,ldapdb auxprop module for Cyrus SASL
+grafx2,Pixelart-oriented painting program
+gui,An adaptive Gtk+ theme based on Material Design Guidelines
+pciutils,PCI bus configuration space access library and tools
+libxkbfile,X11 keyboard file manipulation library
+btrfs-progs,Btrfs filesystem utilities
+zeromq,Fast messaging system built on sockets
+python-blessings,"A thin, practical wrapper around terminal coloring, styling, and positioning"
+cmocka,Elegant unit testing framework for C with support for mock objects
+xset,Efficient relational queries on Haskell sets
+python-pyparsing,General parsing module for Python
+gst-plugins-base,GStreamer open-source multimedia framework base plugins
+dvtm,Dynamic virtual terminal manager.
+avrdude,Arduino AVR core with upstream avr-gcc and avrdude
+uncrustify,A source code beautifier
+ftgl,OpenGL library to use arbitrary fonts
+gnumeric,A GNOME Spreadsheet Program
+m2c,A crypto and SSL toolkit for Python
+evince,"Document viewer (PDF, Postscript, djvu, tiff, dvi, XPS, SyncTex support with gedit, comics books (cbr,cbz,cb7 and cbt))"
+core,Arduino AVR core with upstream avr-gcc and avrdude
+hiawatha,Secure and advanced webserver
+urxvt,Unicode enabled rxvt-clone terminal emulator (urxvt)
+cups,Power mangement and controlling most of APC's UPS models
+smpeg,SDL MPEG Player Library
+diffutils,Utility programs used for creating patch files
+xcb-util-wm,Utility libraries for XC Binding - client and window-manager helpers for ICCCM
+entr,A simple user centric eBook reader which displays multiple eBooks formats uniformly
+arp-scan,A tool that uses ARP to discover and fingerprint IP hosts on the local network
+xtrans,Extra extransions for perl-x11-protocol
+alsa-utils,An alternative implementation of Linux sound support
+awesome,Highly configurable framework window manager
+world,Machine management for a container-centric world
+help2man,Conversion tool to create man files
+msmtp,A mini smtp client
+dbus,Qt wrapper for Bluez 5 DBus API
+python-pygments,Python syntax highlighter
+rtmpdump,Tool to download rtmp streams
+kernel,Kernel headers sanitized for use in userspace (aarch64-linux-gnu)
+gnupg,GnuPG archive keys of the Debian archive
+djvulibre,"Suite to create, manipulate and view DjVu ('déjà vu') documents"
+setuptools,An extension module for click to enable registering CLI commands via setuptools entry-points.
+parted,A utility to resize FAT filesystems using libparted
+squashfs-tools,"Tools for squashfs, a highly compressed read-only filesystem for Linux."
+alsa-plugins,Extra alsa plugins
+libidl,A front-end for CORBA 2.2 IDL and Netscape's XPIDL
+util-linux,Miscellaneous system utilities for Linux (32-bit)
+gstreamer,GStreamer bindings for clutter
+ppp,"A music creation tool, intended for live use"
+libtool,A generic library support script
+apache,Apache Ant build tool documentation
+torsocks,Wrapper to safely torify applications
+python-pudb,"A full-screen, console-based Python debugger"
+sdl2,SDL2 component
+xf86-video-vmware,X.org vmware video driver
+libopus,High-level API for encoding .opus files
+cairo,2D graphics library with support for multiple output devices
+libmcrypt,A library which provides a uniform interface to several symmetric encryption algorithms
+expect,A tool for automating interactive applications
+python-dnspython,A DNS toolkit for Python
+xorg,Berkeley Open Infrastructure for Network Computing for desktop without Xorg dependencies
+binwalk,A tool for searching a given binary image for embedded files
+host,Host code for Airspy SDR.
+bzip2,A high-quality data compression program
+freetype,Font rasterization library
+lxappearance,Feature-rich GTK+ theme switcher of the LXDE Desktop
+python-sip,Python 3.x SIP bindings for C and C++ libraries
+cups-filters,OpenPrinting CUPS Filters
+speexdsp,DSP library derived from Speex (32-bit)
+enchant,A wrapper library for generic spell checking
+dillo,"A small, fast graphical web browser built on FLTK"
+sdl-sound,SDL sound component
+ccache,Compiler cache that speeds up recompilation by caching previous compilations
+python-capstone,"Lightweight multi-platform, multi-architecture disassembly framework"
+tinycdb,Very fast and simple package for creating and reading constant data bases
+nodejs,Evented I/O for V8 javascript
+gegl,Graph based image processing framework
+wxgtk,GTK+ implementation of wxWidgets API for GUI
+readline,GNU readline library (32-bit)
+ocaml,A preprocessor-pretty-printer of OCaml.
+argp,Feature-rich command line parser for Lua 5.1
+python-filebytes,Library to read and edit executable binary files
+lame,Powerful yet simple to use screenshot software
+cmus,Feature-rich ncurses-based music player
+mpg123,"A console based real time MPEG Audio Player for Layer 1, 2 and 3 (32-bit)"
+acpi,"Client for battery, power, and thermal readings"
+freeimage,Library project for developers who would like to support popular graphics image formats
+cflow,Framework for perl-events
+apr,The Apache Portable Runtime
+lxde-icon-theme,LXDE default icon theme based on nuoveXT2
+epdfview,Lightweight PDF document viewer
+xf86-video-intel,X.org Intel i810/i830/i915/945G/G965+ video drivers
+gst-plugins-good,GStreamer open-source multimedia framework good plugins
+seccomp,Enhanced seccomp library
+attr,Extended attribute support library for ACL support
+giflib,Library for reading and writing gif images
+allegro4,Portable library aimed at video game and multimedia programming (legacy version)
+xfd,A desktop manager for Xfce
+libgit2,A linkable library for Git
+cairomm,C++ bindings for Cairo
+xmlto,Python module that makes working with XML feel like working with JSON (py2)
+scummvm,Libretro wrapper for Kodi's Game API
+docbook-xml,A widely used XML scheme for writing documentation and help
+python-networkx,"Python package for the creation, manipulation, and study of the structure, dynamics, and functions of complex networks."
+gdb,The GNU Debugger for the ARM64 target
+re2c,A tool for generating C-based recognizers from regular expressions
+libconfig,C/C++ Configuration File Library
+libraw,Provides an API to the Linux IEEE1394 (FireWire) driver (32 bit)
+timidity,A MIDI to WAVE converter and player
+pango,Binding to the pango library for Gtk2Hs.
+gnu-efi-libs,Library for building UEFI Applications using GNU toolchain
+dmenu,Dynamic menu library and client program inspired by dmenu with support for wayland compositors
+vala,Compiler for the GObject type system
+gdk-pixbuf,An image loading library
+debootstrap,Bootstrap a basic Debian system
+python-pyasn1,ASN.1 library for Python 3
+glibmm,C++ bindings for GLib
+zip,Recompression utilities for .zip .png .mng and .gz files using the 7-zip algorithm
+tabbed,"Tabbed tiling, window manager. Fork of Ion3"
+dumb,"IT, XM, S3M and MOD player library"
+libxdmcp,X11 Display Manager Control Protocol library (32-bit)
+redis,Minimalistic C client library for Redis
+xf86-input-keyboard,X.Org keyboard input driver
+libmikmod,A portable sound library
+coreutils,"The basic file, shell and text manipulation utilities of the GNU operating system"
+glib-networking,Network extensions for GLib
+python-sqlalchemy,Python SQL toolkit and Object Relational Mapper
+xkbcommon,Keymap handling library for toolkits and window systems
+lxappearance-obconf,Plugin for LXAppearance to configure Openbox
+nvi,Monospaced font family for user interface and coding environments
+gawk,GNU version of awk
+xmp,"Brings instant messaging (XMPP, MSN, Yahoo!, AIM, ICQ, Twitter) to IRC"
+g++454,Preparation of Internationalized Strings (RFC 3454)
+shared-mime-info,Freedesktop.org Shared MIME Info
+mpd,A GTK client for MPD inspired by Rhythmbox but much lighter and faster
+zziplib,A lightweight library that offers the ability to easily extract data from files archived in a single zip file
+e2fsprogs,Ext2/3/4 filesystem utilities
+fribidi,A Free Implementation of the Unicode Bidirectional Algorithm
+libgnome-keyring,GNOME keyring client library
+imagemagick,An image viewing/manipulation program
+gtkmm,An interactive Gtkmm canvas widget for graph-based interfaces
+firefox,The next-generation Web Editor based on the rendering engine of Firefox
+libnids,An implementation of an E-component of Network Intrusion Detection System.
+python-pycparser,C parser and AST generator written in Python
+surfraw,Shell Users' Revolutionary Front Rage Against the Web
+xfontsel,Point and click selection of X11 font names
+python-olefile,"Python library to parse, read and write Microsoft OLE2 files (formerly OleFileIO_PL)"
+hdparm,A shell utility for manipulating Linux IDE drive/driver parameters
+qpdf,"Read and write PDFs with Python, powered by qpdf"
+fluidsynth,A real-time software synthesizer based on the SoundFont 2 specifications
+uboot,U-Boot bootloader utility tools
+lua-argparse,Feature-rich command line parser for Lua 5.3
+hydra,letsencrypt/acme client implemented as a shell-script – just add water
+python-zope-interface,Zope Interfaces for Python 3.x
+go,"Frontend command-line utility that grabs tracks off a CD, encodes them to ogg or mp3 format, and tags them, all in one go"
+xsel,XSel is a command-line program for getting and setting the contents of the X selection
+sqlmap,Automatic SQL injection and database takeover tool
+xkeyboard-config,X keyboard configuration files
+lxde-common,Common files of the LXDE Desktop
+htop,Interactive process viewer
+python-gevent,Python network library that uses greenlet and libev for easy and scalable concurrency
+xcb-util-image,Utility libraries for XC Binding - Port of Xlib's XImage and XShmImage functions
+sox,The SoX Resampler library that aims to give fast and high quality results for any constant resampling ratio
+font-util,X.Org font utilities
+mpfr,Multiple-precision floating-point library
+transmission,a library which implements a protocol for transmission of raster page images
+xwininfo,Command-line utility to print information about windows on an X server
+libmpdclient,Signal based wrapper around libmpdclient
+setxkbmap,Set the keyboard using the X Keyboard Extension
+pass,A password-hashing function (reference C implementation)
+lxdm,Lightweight X11 Display Manager
+join,Command-line file splitter/joiner compatible with any HJSplit version
+xcb-util-keysyms,Utility libraries for XC Binding - Standard X key constants and conversion to/from keycodes
+xf86-input-mouse,X.org mouse input driver
+neon,HTTP and WebDAV client library with a C interface
+python-beautifulsoup4,A Python HTML/XML parser designed for quick turnaround projects like screen-scraping
+xauth,X.Org authorization settings program
+sdl,Critical Mass (aka Critter) is an SDL/OpenGL space shoot'em up game
+xf86-input-evdev,X.org evdev input driver
+python-paramiko,Python module that implements the SSH2 protocol
+zsh,grml's zsh setup
+macchanger,A small utility to change your NIC's MAC address
+twm,A multiple large virtual desktop window manager originally derived from twm
+libsigc++,Libsigc++ implements a full callback system for use in widget libraries - V2
+libxfont,X11 font rasterisation library
+libtermkey,Library for easy processing of keyboard entry from terminal-based programs
+wv,"MSWord library can load and parse Word 2000, 97, 95 and 6 file formats"
+voc,Alternative invocation mechanism for unix-daemon-like java code
+python-websocket-client,WebSocket client library for Python
+python-requests,A VCR imitation for python-requests
+services,Qt library that implements the Open Collaboration Services API
+libgudev,GObject bindings for libudev
+ucl,CMU Common Lisp
+libevdev,Wrapper library for evdev devices
+python-greenlet,Lightweight in-process concurrent programming
+libz,GLib/GObject wrapper for the SkyDrive and Hotmail REST APIs
+xorg-server,Xorg X server
+xcb-util,Utility libraries for XC Binding (32-bit)
+python-docopt,"Pythonic argument parser, that will make you smile"
+lxtask,Task manager of the LXDE Desktop
+python-pyserial,Multiplatform Serial Port Module for Python
+xcb-proto,XML-XCB protocol descriptions
+python-cachetools,Extensible memoizing collections and decorators
+texinfo,A software package that converts DocBook documents into the traditional Unix man page format and the GNU Texinfo format.
+xf86-video-ati,X.org ati video driver
+swig,Generate scripting interfaces to C/C++ code
+xz,Library and command line tools for XZ and LZMA compressed files (32-bit)
+z3,High-performance theorem prover
+python-pycrypto,"Collection of cryptographic algorithms and protocols, implemented for use from Python 3."
+qt4,"Provides an uniform layer to support PyQt5, PyQt4 and PySide with a single codebase"
+su,"Tool for session {at,de}tach support which allows a process to run independently from its controlling terminal"
+python-pygame,Python game library
+lua-lpeg,Pattern-matching library for Lua 5.3
+usbutils,USB Device Utilities
+menu-cache,Caching mechanism for freedesktop.org compliant menus
+xev,Print contents of X events
+libxau,X11 authorisation library (32-bit)
+xbitmaps,X.org Bitmap files
+karchive,Qt 5 addon providing access to numerous types of archives
+libsoup,HTTP client/server library for GNOME
+xf86-video-nouveau,Open Source 3D acceleration driver for nVidia cards
+poppler-data,Encoding data for the poppler PDF rendering library
+libxcursor,X cursor management library (32-bit)
+reptyr,Utility for taking an existing running program and attaching it to a new terminal
+python-future,Clean single-source support for Python 3 and 2
+w3m,Text-based Web browser as well as pager
+python-typing,Backported and Experimental Type Hints for Python 3.5+
+libexif,A library to parse an EXIF file and read the data from those tags
+ophis,A sophisticated standalone keyboard launcher.
+libxext,X11 miscellaneous extensions library (32-bit)
+lzo,"Multi-threaded compression with rzip/lzma, lzo, and zpaq"
+tzdata,Sources for time zone and daylight saving time data
+postfix,A very simple mail statistics RRDtool frontend for Postfix and Sendmail
+xsetroot,Classic X utility to set your root window background to a given pattern or color
+libxvmc,X11 Video Motion Compensation extension library (32-bit)
+opus-tools,Collection of tools for Opus audio codec
+libgpgme,A graphical front-end to GnuPG(GPG) using the GTK3 toolkit and libgpgme
+xcb-util-xrm,XCB utility functions for the X resource manager
+libstdc++,GNU Standard C++ library version 3
+xf86-video-vesa,X.org vesa video driver
+python-pypandoc,Thin wrapper for pandoc
+libssh,A library implementing the SSH2 protocol as defined by Internet Drafts (32-bit)
+libcue,Parses so-called cue sheets and handles the parsed data
+python-cryptography,A package designed to expose cryptographic recipes and primitives to Python developers
+libmad,A high-quality MPEG audio decoder
+xmms,Lightweight XMMS2 client
+ncurses,Fancy ncurses interface to the Python interpreter
+upx,Ultimate executable compressor.
+libxcb,X11 client-side library (32-bit)
+usbmuxd,USB Multiplex Daemon
+xf86-input-libinput,Generic input driver for the X.Org server based on libinput
+nss,DNSSEC trust anchors for the root zone
+xpaint,Drawing program designed for young children
+yaml-cpp,"YAML parser and emitter in C++, written around the YAML 1.2 spec"
+libimobiledevice,Library that talks the protocols to support iPhone and iPod Touch devices on Linux
+vis,sendmail milter for amavisd-new using the AM.PDP protocol
+psmisc,Miscellaneous procfs tools
+wayland,Dynamic menu library and client program inspired by dmenu with support for wayland compositors
+linux-firmware,Firmware files for Linux
+libmicrohttpd,a small C library that is supposed to make it easy to run an HTTP server as part of another application.
+popt,Commandline option parser (32 bit)
+xclip,Command line interface to the X11 clipboard
+pangox-compat,X Window System font support for Pango
+libwebp,WebP library
+xinput,Small program to configure keyboard and mouse for LXDE
+portaudio,"A free, cross-platform, open source, audio I/O library. (32 bit)"
+libxfixes,X11 miscellaneous 'fixes' extension library (32-bit)
+netsurf,NetSurf Utilities
+xcb-util-cursor,XCB cursor library
+libxfont2,X11 font rasterisation library
+python-psutil,A cross-platform process and system utilities module for Python
+intltool,The internationalization tool collection
+less,Side-scroller action game that pits you against ruthless alien killers
+xf86-input-synaptics,Synaptics driver for notebook touchpads
+zlib,Compression and decompression in the bzip2 format
+libxxf86dga,X11 Direct Graphics Access extension library
+kernel-headers,Linux kernel headers sanitized for use with musl libc
+openssh,LXQt openssh password prompt
+libglade,Allows you to load glade interface files in a program at runtime (32-bit)
+patchutils,A small collection of programs that operate on patch files
+xcb-util-renderutil,Utility libraries for XC Binding - Convenience functions for the Render extension
+lm-sensors,Heterogeneous set of I2C tools for Linux that used to be part of lm-sensors
+ninja,Meta-build system that generates build files for Ninja
+libvirt,"API for controlling virtualization engines (openvz,kvm,qemu,virtualbox,xen,etc)"
+python-pillow,Python Imaging Library (PIL) fork. Python3 version.
+lvm,C language family frontend for LLVM
+xclock,X clock
+libelf,Libraries to handle ELF object files and DWARF debugging information (32-bit)
+mkfontscale,Create an index of scalable font files for X
+virt-manager,Desktop user interface for managing virtual machines
+libsodium,"A modern, portable, easy to use crypto library"
+python-click,A simple wrapper around optparse for powerful command line utilities
+xmodmap,A graphical front-end to xmodmap
+python-gmpy2,Provides C-coded Python modules for fast multiple-precision arithmetic.
+powertop,A tool to diagnose issues with power consumption and power management
+polyml,Standard ML compiler originally written in the experimental language Poly
+mtdev,A stand-alone library which transforms all variants of kernel MT events to the slotted type B protocol
+libfontenc,X11 font encoding library
+python-sortedcontainers,"Python Sorted Container Types: SortedList, SortedDict, and SortedSet"
+iw,Fully-featured word processor
+python-pygraphviz,Python interface to the Graphviz graph layout and visualization package
+libfm-extra,Extra library for file management
+mksh,MirBSD Korn Shell
+pidgin,IM library extracted from Pidgin
+i3-wm,An improved dynamic tiling window manager
+lxinput,Small program to configure keyboard and mouse for LXDE
+jbig2dec,Decoder implementation of the JBIG2 image compression format
+iconv,Interface to iconv codeset conversion
+python-lxml,Python3 binding for the libxml2 and libxslt libraries
+libxdamage,X11 damaged region extension library (32-bit)
+nginx,Nginx plugin for Let’s Encrypt client
+neovim,"Fork of Vim aiming to improve user experience, plugins, and GUIs"
+protobuf,Protocol Buffers - Google's data interchange format
+libusbmuxd,USB Multiplex Daemon
+mpc,"A script with an easy to use interface to convert audio files: wav, mp3, ogg, flac, aac, mpc, ape and wma"
+libepoxy,Library handling OpenGL function pointer management
+mhash,"A thread-safe hash library which provides a uniform interface to hash algorithms (MD5, SHA1, HAVAL, etc)"
+libgc,General purpose cryptographic library based on the code from GnuPG (32-bit)
+libdmx,X11 Distributed Multihead extension library
+python-packaging,Core utilities for Python packages
+python-scapy,Powerful interactive packet manipulation program written in Python (library)
+lua52,Powerful lightweight programming language designed for extending applications
+nnn,The fastest terminal file manager ever written.
+jsoncpp,C++ library for interacting with JSON
+imv,Image viewer for Wayland and X11
+python-py,Common PyQt files shared between python-pyqt5 and python2-pyqt5
+libpciaccess,X11 PCI access library (32-bit
+python-dbus,Python bindings for DBUS
+imlib2,Fast and light imlib2-based image viewer
+libxrandr,X11 RandR extension library (32-bit)
+initramfs,An event driven initramfs infrastructure
+lxmenu-data,Freedesktop.org desktop menus for LXDE
+libnl,Library for applications dealing with netlink sockets (32 bit)
+python-beautifulsoup,A Python HTML/XML parser designed for quick turnaround projects like screen-scraping
+libvorbis,Vorbis codec library (32-bit)
+json-glib,JSON library built on GLib
+libtiff,Library for manipulation of TIFF images (32-bit)
+python-idna,Internationalized Domain Names in Applications (IDNA)
+iptables,Linux kernel packet control tool (using legacy interface)
+python-ecdsa,Implementation of ECDSA in Python
+libxcomposite,X11 Composite extension library (32-bit)
+openal,Utility library to help manage common tasks with OpenAL applications.
+python-twisted,Asynchronous networking framework written in Python
+pixman,Pixman library (32-bit)
+miniupnpc,Small UPnP client library/tool to access Internet Gateway Devices
+indent,Extensible Haskell pretty printer
+python-pip,The PyPA recommended tool for installing Python packages
+nasm,80x86 assembler designed for portability and modularity
+python-mako,A super-fast templating language that borrows the best ideas from the existing templating languages
+python-numpy,Scientific tools for Python
+nfs-utils,ipconfig and nfsmount tools for NFS root support in mkinitcpio
+libnet,A library which provides API for commonly used low-level net functions
+libcroco,GNOME CSS2 parsing and manipulation toolkit (32-bit)
+pcc,XML-RPC client library for KDE
+python-wcwidth,Measures number of Terminal column cells of wide-character codes
+python-setuptools,"Easily download, build, install, upgrade, and uninstall Python packages"
+pkg-config,Pure-Perl Core-Only replacement for pkg-config
+libdwarf,A library for handling DWARF Debugging Information Format
+nethack,"A port of Nethack, a single player dungeon exploration game in 2D"
+python-pysocks,"SOCKS4, SOCKS5 or HTTP proxy (Anorov fork PySocks replaces socksipy)"
+icu,OpenType text shaping engine (ICU integration)
+protobuf-c,Protocol Buffers implementation in C
+lxpanel,Lightweight X11 desktop panel for LXDE
+python-sympy,"Symbolic manipulation package (Computer Algebra System), written in pure Python"
+libxtst,X11 Testing -- Resource extension library (32-bit)
+mbedtls,"Portable cryptographic and SSL/TLS library, aka polarssl"
+milkytracker,Music tracker inspired by Fast Tracker II
+libinput,Input device management and event handling library
+nspr,Netscape Portable Runtime (32-bit)
+python-pluggy,Plugin and hook calling mechanisms for python
+python-simplejson,"Simple, fast, extensible JSON encoder/decoder for Python"
+python-tox,Python virtualenv management and testing tool
+libjpeg,libjpeg derivative with accelerated baseline JPEG compression and decompression
+libass,A portable library for SSA/ASS subtitles rendering
+mosh,"Mobile shell, surviving disconnects with local echo and line editing"
+python-ropper,Show information about binary files and find gadgets to build rop chains for different architectures
+lxde,Feature-rich GTK+ theme switcher of the LXDE Desktop
+luajit,Just-in-time compiler and drop-in replacement for Lua 5.1
+python-unicorn,"Lightweight, multi-platform, multi-architecture CPU emulator framework based on QEMU"
+i2c-tools,Heterogeneous set of I2C tools for Linux that used to be part of lm-sensors
+pax-utils,ELF utils that can check files for security relevant properties
+moreutils,A growing collection of the unix tools that nobody thought to write thirty years ago
+libfm,Library for file management
+openvpn,NetworkManager VPN plugin for OpenVPN
+python-curtsies,Curses-like terminal wrapper with a display based on compositing 2d arrays of text
+lxrandr,Monitor configuration tool (part of LXDE)
+kbd,Keytable files and keyboard utilities
+python-markupsafe,Implements a XML/HTML/XHTML Markup safe string for Python
+libxres,X11 Resource extension library
+python-decorator,Python Decorator module
+libplist,A library to handle Apple Property List format whereas it's binary or XML
+libxt,X11 toolkit intrinsics library (32-bit)
+libx11,X11 client-side library (32-bit)
+libao,A cross-platform audio output library and plugins (32-bit)
+i3status,"Generates status bar to use with i3bar, dzen2 or xmobar"
+libev,libev-based high performance SSL/TLS proxy
+libtheora,An open video codec developed by the Xiph.org
+iftop,Display bandwidth usage on an interface
+libogg,Ogg bitstream and framing library (32-bit)
+libxinerama,X11 Xinerama extension library (32-bit)
+libxshmfence,a library that exposes a event API on top of Linux futexes (32-bit)
+libxrender,X Rendering Extension client library (32-bit)
+libwnck,Window Navigator Construction Kit
+json-c,A JSON implementation in C
+ijs,a library which implements a protocol for transmission of raster page images
+keybinder,Library for registering global keyboard shortcuts
+libxpm,X11 pixmap library
+libxi,X11 Input extension library (32-bit)
+libarchive,Multi-format archive and compression library
+libtorrent,BitTorrent library with a focus on high performance and good code
+libotr,Off-the-Record Messaging Library and Toolkit
+libmng,A collection of routines used to create and manipulate MNG format graphics files
+kmod,Linux kernel module management tools and library
+libsamplerate,Secret Rabbit Code - aka Sample Rate Converter for audio (32-bit)
+libxft,FreeType-based font drawing library for X (32-bit)
