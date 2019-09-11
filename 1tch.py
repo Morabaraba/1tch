@@ -9,7 +9,7 @@ import inifile # pip install inifile
 
 ignore_commit_hashes = [ 'a202836f' ]
 
-lines = [ ['name', 'desc', 'filesize', 'created', 'last_modified'] ]
+lines = [ ['name', 'desc', 'filesize', 'created', 'last_modified', 'commits'] ]
 
 def get_git_log(pathedname):
     log_lines = subprocess.Popen(f'git log --follow --format="%h,%at" {pathedname}', shell=True, stdout=subprocess.PIPE).stdout.read().decode('utf-8')
@@ -43,8 +43,9 @@ def get_line(filename, pathedname):
     log_lines = get_git_log(pathedname)
     created = get_created_commit(log_lines).split(',')[1]
     last_modified = get_last_modified_commit(log_lines).split(',')[1]
-    
-    return [ name, desc, filesize, created, last_modified]
+    commits = len(log_lines)
+
+    return [ name, desc, filesize, created, last_modified, commits]
 
 def set_lines(directory, wildcardname):
     pathname = os.path.join(directory, wildcardname)
