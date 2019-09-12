@@ -15,6 +15,12 @@
 		this._instanceName = instanceName
 		this._container = container
 		this._state = state
+		// TODO do this proper
+		this._state.missingDesc = app.util.CSV2JSON(this._state.missingDesc)
+		this._state.missingHash = {}
+		_.each(this._state.missingDesc, function(row) {
+			self._state.missingHash[row.name] = row.desc
+		})
 		this._grid = null
 
 		this._collection = new(Backbone.Collection.extend({
@@ -269,6 +275,11 @@
 		this._collection.on('error', function(collection, response, options) {
 			if (options.textStatus == 'parsererror') {
 				self._state.data = app.util.CSV2JSON(response.responseText)
+				_.each(self._state.data, function(row) {
+					if (row.desc == '<NULL>') {
+						row.desc = self._state.missingHash[row.name] ? ('<span style="color: #2a2a2a; background: #FFDFDD">' + self._state.missingHash[row.name] + '</span>') : '<NULL>'
+					}
+				})
 				self._setData()
 				self._stopRefreshAnim()
 				return

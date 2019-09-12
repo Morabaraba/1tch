@@ -4,10 +4,12 @@
 	$(main) // on ready call main
 	function main() {
 		$.get('pages/extracted.csv', function( data ) {
-			setupLayout(data);
+			$.get('pages/missing-desc.csv', function( missing_desc ) {
+				setupLayout(data, missing_desc);
+			})
 		})
 	}
-	function setupLayout(title) {
+	function setupLayout(title, missing_desc) {
 		
 		var config0 = {
 			content: [{
@@ -17,6 +19,7 @@
 					type: 'component',
 					componentName: 'snapgrid',
 					componentState: {
+						missingDesc: missing_desc,
 						url: 'pages/pkgs.csv',
 						fetchType: 'GET',
 						/*counterChart: {
